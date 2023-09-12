@@ -162,6 +162,18 @@ a {
   justify-content: space-between;
 }
 
+.clients .image a {
+  display: flex;
+  align-items: center;
+  height: 91px;
+  padding: 0 41px;
+  border-radius: 12px;
+}
+
+.clients .image a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
 /*======= guides =====  */
 .guides .content {
   margin-top: 40px;
